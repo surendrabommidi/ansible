@@ -1,0 +1,22 @@
+prometheus_archive_file_download_directory: "/opt"
+
+promethues_version: " 2.17.2"
+
+prometheus_download_url: "https://github.com/prometheus/prometheus/releases/download/v2.17.2/prometheus-2.17.2.linux-amd64.tar.gz"
+
+prometheus_archive_file_name: prometheus-2.17.2.linux-amd64.tar.gz
+
+
+prometheus_folder_name: "prometheus-2.17.2.linux-amd64"
+
+prometheus_binary_name: "prometheus"
+
+prometheus_binary_location: "/usr/local/bin"
+
+prometheus_configurtion_directory: "/etc/prometheus"
+
+prometheus_service_name: "prometheus"
+
+apache2_file_directory: "/etc/apache2"
+
+apache2_service_name: "apache2"

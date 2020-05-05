@@ -1,0 +1,7 @@
+- name: Systemd Daemon reload
+  shell: Systemctl daemon-reload
+
+- name: Prometheus Service Restart
+  service:
+    name: "{{ prometheus_service_name }}"
+    state: restarted
